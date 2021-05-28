@@ -53,7 +53,7 @@ passenger_count = st.number_input('Insert passenger count', min_value=0)
 # 🤔 How could we call our API ? Off course... The `requests` package 💡
 # '''
 
-# url = 'http://localhost:8000/predict'
+# url = 'http://localhost:8000/predict' # use this url when using docker run putting own predict API to webserver
 url = 'https://taxifare.lewagon.ai/predict'
 
 # if url == 'https://taxifare.lewagon.ai/predict':
